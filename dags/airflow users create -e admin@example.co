@@ -1,0 +1,3 @@
+airflow users create -e admin@example.com -f MAdmin -l User -u airflow -p airflow -r Admin
+
+kafka-console-consumer.bat --bootstrap-server 127.0.0.1:9092 --topic first_topic
